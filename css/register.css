@@ -22,7 +22,7 @@ input::placeholder {
 
 .bg-orange {
 	/* we overwrite the default tachyons bg-orange class */
-  background-color: #ffe6dd;
+  background-color: #111;
 }
 
 .register {
@@ -37,6 +37,7 @@ input::placeholder {
 .front,
 .back {
   grid-area: 1/1;
+  color: #ace9b0;
 }
 
 /*  we add a transition to the transform property */

@@ -3,6 +3,7 @@
   /* give the variable a name and value (needs two -- in front) */
   --orange: #ace9b0;
   --gold: #f6aa3d;
+  --gray: #111;
 }
 
 body {
@@ -19,7 +20,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #414141;
+  color: #ace9b0;
+}
+
+#details {
+  margin-top: 30em;
 }
 
 .heading {
@@ -45,7 +50,6 @@ a {
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-top: 30em;
 }
 
 blockquote {
