@@ -23,10 +23,6 @@ a {
   color: #ace9b0;
 }
 
-#details {
-  margin-top: 30em;
-}
-
 .heading {
   color: #fff;
   -webkit-text-fill-color: transparent;
@@ -137,10 +133,6 @@ blockquote {
   background-image: url('../images/logo_2.svg');
 }
 
-.footer-logos img {
-  height: 1vh;
-}
-
 .fade {
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -178,6 +170,12 @@ blockquote {
   .heading {
     font-size: 48px;
     -webkit-text-stroke-width: 1px;
+  }
+}
+
+@media screen and (min-width: 30em) {
+  #details {
+    margin-top: 25rem;
   }
 }
 
