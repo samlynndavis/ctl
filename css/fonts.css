@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Druk Wide Heavy";
+    src: url("../fonts/Druk\ Wide\ Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Druk Wide Bold";
+    src: url("../fonts/Druk\ Wide\ Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'HK-Grotesk-Bold';
+  src: url('../fonts/hkgrotesk-bold.woff2') format('woff2'),
+    url('../fonts/hkgrotesk-bold.woff') format('woff'),
+    url('../fonts/hkgrotesk-bold.eot') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HK-Grotesk-Medium';
+  src: url('../fonts/hkgrotesk-bold.woff2') format('woff2'),
+    url('../fonts/hkgrotesk-bold.woff') format('woff'),
+    url('../fonts/hkgrotesk-bold.eot') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'HK-Grotesk-Regular';
+  src: url('../fonts/hkgrotesk-bold.woff2') format('woff2'),
+    url('../fonts/hkgrotesk-bold.woff') format('woff'),
+    url('../fonts/hkgrotesk-bold.eot') format('truetype');
+  font-weight: normal;
+}
+
+.regular {
+  font-family: 'HK-Grotesk-Regular', sans-serif;
+}
+
+.medium {
+  font-family: 'HK-Grotesk-Medium', sans-serif;
+}
+
+.bold {
+  font-family: 'HK-Grotesk-Bold', sans-serif;
+}
+
+html,
+input {
+	/* this smooths our fonts nicely on higher density screens */
+  -webkit-font-smoothing: antialiased;
+}
