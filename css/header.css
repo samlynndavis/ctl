@@ -32,16 +32,21 @@ ul {
     top: 4px;
     left: 0;
     width: 100%;
-    font-size: 1.6vw;
+    font-size: 0.8em;
     line-height: 1;
     overflow: hidden;
         
-    transform: rotate(-47deg);
+    /* transform: rotate(-47deg);
     top: -130px;
-    left: -500px;
+    left: -500px; */
 
-    background-color: #ace9b0;
+    /* background-color: #ace9b0; */
     padding: 5px;
+
+    top: 0;
+    left: 0;
+
+    background-color: #d2a7a1;
 }
 
 @keyframes moveLeft {
