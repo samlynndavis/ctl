@@ -21,29 +21,29 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/register.css">
 
-  <!-- Noscript content for added SEO -->
-  <noscript><a
-      href="https://www.eventbrite.com/e/form-function-a-kickoff-fundraiser-for-chicago-tool-library-tickets-68656556609"
-      rel="noopener noreferrer" target="_blank"></noscript>
-  <!-- You can customize this button any way you like -->
-  <!-- <button id="eventbrite-widget-modal-trigger-68656556609" type="button">Buy Tickets</button> -->
-  <noscript></a>Buy Tickets on Eventbrite</noscript>
+    <!-- Noscript content for added SEO -->
+    <noscript><a
+        href="https://www.eventbrite.com/e/form-function-a-kickoff-fundraiser-for-chicago-tool-library-tickets-68656556609"
+        rel="noopener noreferrer" target="_blank"></noscript>
+    <!-- You can customize this button any way you like -->
+    <button id="eventbrite-widget-modal-trigger-68656556609" type="button">Buy Tickets</button>
+    <noscript></a>Buy Tickets on Eventbrite</noscript>
 
-  <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-  <script type="text/javascript">
-    var exampleCallback = function () {
-      console.log('Order complete!');
-    };
+    <script type="text/javascript">
+      var exampleCallback = function () {
+        console.log('Order complete!');
+      };
 
-    window.EBWidgets.createWidget({
-      widgetType: 'checkout',
-      eventId: '68656556609',
-      modal: true,
-      modalTriggerElementId: 'eventbrite-widget-modal-trigger-68656556609',
-      onOrderComplete: exampleCallback
-    });
-  </script>
+      window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '68656556609',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-68656556609',
+        onOrderComplete: exampleCallback
+      });
+    </script>
 
 </head>
 <body>
@@ -299,8 +299,10 @@
             <p class="mt0 mb4 col-12">Inside Town
               <br> 1954 S Troy Ave.
             </p>
-            <button id="eventbrite-widget-modal-trigger-68656556609" type="button"
-                class="button button-small button-outline register-button">Tickets</button>
+            <a
+              href="https://www.eventbrite.com/e/form-function-a-kickoff-fundraiser-for-chicago-tool-library-tickets-68656556609"
+              target="_blank"><button
+                class="button button-small button-outline register-button">Tickets</button></a>
           </div>
           <!-- <form action="https://api.superhi.com/api/test/orders" class="back form z-1 pa4 col-12" id="payment-form">
             <div class="spinner"></div>
@@ -365,5 +367,6 @@
   <script src="./js/in-view.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/anime.min.js"></script>
+
 </body>
 </html>
