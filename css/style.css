@@ -179,6 +179,12 @@ blockquote {
   }
 }
 
+@media screen and (max-width: 800px) {
+  #details {
+    margin-top: 4rem;
+  }
+}
+
 
 
 
