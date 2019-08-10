@@ -68,10 +68,6 @@ ul {
     font-family: 'Druk Wide Bold', sans-serif;
 }
 
-.mix-difference {
-    mix-blend-mode: difference;
-}
-
 .logo-svg {
   width: 85vw;
   height: 72px;

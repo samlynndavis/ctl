@@ -170,7 +170,7 @@ anchors.forEach(anchor => {
 
 function makeMarquee () {
     const title = '#moonrisepresents'
-    const marqueeText = new Array(200).fill(title).join('')
+    const marqueeText = new Array(1000).fill(title).join('')
 
     document.querySelector('.marquee span').innerHTML = marqueeText
 }
