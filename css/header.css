@@ -6,12 +6,45 @@
 .nav-item {
   margin-left: 16px;
   margin-right: 16px;
+  position: relative;
+}
+
+.nav-item::after {
+  background-color: #ace9b0;
+  content: ' ';
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  z-index: -1;
+  width: calc(100% + 0px);
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .nav-link {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.header .nav-item:last-of-type .nav-link {
+  background-color: #ace9b0;
+  padding: 10px 15px;
 }
 
 ul {
@@ -36,11 +69,6 @@ ul {
     line-height: 1;
     overflow: hidden;
         
-    /* transform: rotate(-47deg);
-    top: -130px;
-    left: -500px; */
-
-    /* background-color: #ace9b0; */
     padding: 5px;
 
     top: 0;
@@ -104,6 +132,10 @@ ul {
   color: var(--gold);
 }
 
+.header-desktop .nav-item:last-of-type::after {
+  background-color: var(--gold);
+}
+
 .header-desktop .nav-link {
   color: #ace9b0;
 }
@@ -131,6 +163,5 @@ ul {
   .logo-svg path {
     width: 85vw;
     height: 40px;
-    fill: #111;
   }
 }
