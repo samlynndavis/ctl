@@ -62,7 +62,7 @@ ul {
 
 .marquee {
     position: absolute;
-    top: 4px;
+    top: 0;
     left: 0;
     width: 100%;
     font-size: 0.8em;
@@ -71,8 +71,7 @@ ul {
         
     padding: 5px;
 
-    top: 0;
-    left: 0;
+
 
     background-color: #d2a7a1;
 }
@@ -129,15 +128,15 @@ ul {
 }
 
 .header-desktop .nav-item:last-of-type .nav-link {
-  color: var(--gold);
+  color: var(--orange);
 }
 
 .header-desktop .nav-item:last-of-type::after {
-  background-color: var(--gold);
+  background-color: var(--orange);
 }
 
 .header-desktop .nav-link {
-  color: #ace9b0;
+  color: #fff;
 }
 
 .header-desktop .logo-svg {

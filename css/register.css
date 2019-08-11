@@ -14,7 +14,7 @@ button {
 
 .button {
   display: inline-block;
-  background-color: var(--orange);
+  background-color: var(--gray);
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -23,15 +23,20 @@ button {
   font-family: 'HK-Grotesk-Bold', sans-serif;
 }
 
+.button:target {
+  background-color: #ace9b0;
+  color: #111;
+}
+
 .button-small {
   font-size: 14px;
   padding: 12px 20px;
 }
 
 .button-outline {
-  background-color: transparent;
+  background-color:transparent;
   border: solid 2px var(--orange);
-  color: var(--orange);
+  color: var(--gray);
 }
 
 .register-button {
@@ -39,7 +44,7 @@ button {
 }
 
 .register-button:hover {
-  color: #111;
+  color: var(--orange);
 }
 
 .register-button::after {
@@ -48,16 +53,16 @@ button {
   height: 100%;
   width: 100%;
   position: absolute;
-  transform: scaleX(0);
+  transform: scaleX(1);
   top: 0;
   left: 0;
   z-index: -1;
   transition: all 0.2s ease-in-out;
-  transform-origin: left;
+  transform-origin: right;
 }
 
 .register-button:hover::after {
-  transform: scaleX(1);
+  transform: scaleX(0);
 }
 
 
