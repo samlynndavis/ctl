@@ -6,6 +6,7 @@
   --gray: #111;
 }
 
+
 body {
   font-family: 'HK-Grotesk-Medium', sans-serif;
   font-size: 18px;
@@ -145,6 +146,39 @@ blockquote {
 #tickets h1 {
   display: inline;
   margin-right: -30px;
+}
+
+.underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.underline::after {
+  background-color: #111;
+  content: ' ';
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  bottom:-2px;
+  width: calc(100% + 0px);
+  transform: scaleX(0);
+  transform-origin: 0% 0%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+
+}
+.underline:hover::after {
+  transform: scaleX(1);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 @media (max-width: 800px) {
