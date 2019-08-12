@@ -34,6 +34,8 @@
   -o-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  animation: colorChange 0.5s forwards
+  
 }
 
 .nav-link {
@@ -177,5 +179,15 @@ ul {
   .logo-svg path {
     width: 85vw;
     height: 40px;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background: #111
+  }
+
+  100% {
+    background: #ace9b0
   }
 }
