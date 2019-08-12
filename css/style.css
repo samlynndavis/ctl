@@ -6,6 +6,11 @@
   --gray: #111;
 }
 
+body,
+a {
+  cursor: url(../images/cursor-auto.png), auto !important;
+}
+
 
 body {
   font-family: 'HK-Grotesk-Medium', sans-serif;
