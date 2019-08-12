@@ -180,6 +180,23 @@ ul {
     width: 85vw;
     height: 40px;
   }
+
+  .header .nav-item:last-of-type .nav-link {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .header .nav-item:last-of-type .nav-link::after {
+    background-color: #ace9b0;
+    content: ' ';
+    display: block;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    width: calc(100% + 0px);
+    transform-origin: 0% 50%;
+  }
 }
 
 @keyframes colorChange {
