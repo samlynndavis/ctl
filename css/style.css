@@ -222,17 +222,19 @@ blockquote {
   #details {
     margin-top: 4rem;
   }
-
-  #tickets h1 {
-    display: inline;
-    margin-right: -20px;
-  }
 }
 
 @media screen and (max-width: 500px) {
   .tickets-section {
     width: 100% !important;
 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #tickets h1 {
+        display: inline;
+        margin-right: -12px;
   }
 }
 
