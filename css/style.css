@@ -19,7 +19,7 @@ body {
   line-height: 1.5;
   color: #414141;
   
-  background-image: url(../images/background_2.jpg);
+  background-image: url(../images/bg.jpg);
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
@@ -128,16 +128,6 @@ blockquote {
   line-height: 1;
   background-color: var(--orange);
   text-align: center;
-}
-
-.footer {
-  background-color: #111;
-}
-
-.footer-link {
-  width: 20vw;
-  height: 40px;
-  background-image: url('../images/logo_2.svg');
 }
 
 .fade {

@@ -85,11 +85,7 @@ ul {
     font-size: 0.8em;
     line-height: 1;
     overflow: hidden;
-        
     padding: 5px;
-
-
-
     background-color: #d2a7a1;
 }
 
@@ -103,7 +99,7 @@ ul {
 }
 
 .marquee span {
-    animation: moveLeft 500s infinite linear;
+    animation: moveLeft 700s infinite linear;
     white-space: nowrap;
     display: block;
     position: relative;
