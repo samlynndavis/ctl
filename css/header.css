@@ -1,6 +1,7 @@
 .logo-container {
   width: 100%;
   position: relative;
+  padding: 0 2rem;
 }
 
 .nav-item {

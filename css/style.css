@@ -32,12 +32,13 @@ a {
 
 .heading {
   color: #fff;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: #fff; */
   font-family: 'HK-Grotesk-Bold', sans-serif;
+  font-family: 'Druk Wide Bold', sans-serif;
   font-size: 110px;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 .heading-orange {
@@ -137,6 +138,10 @@ blockquote {
 
 .visible {
   opacity: 1;
+}
+
+#tickets {
+  padding: 3rem 0 0 0;
 }
 
 #tickets h1 {
